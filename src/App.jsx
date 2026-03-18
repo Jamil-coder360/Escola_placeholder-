@@ -6,7 +6,7 @@ import Servicepage from "./pages/Servicepage";
 import AboutPage from "./pages/Aboutpage";
 import Project from "./pages/Project";
 import { Page } from "./pages/Page";
-import NotFound from "./pages/NotFound";   
+import NotFound from "./pages/Notfound";   
 import Blogpage from "./pages/Blogpage";
  
 const router = createBrowserRouter([
