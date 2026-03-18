@@ -1,13 +1,13 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Mainlayout from "./components/Mainlayout";
-import HomePage from "./pages/HomePage"";
-import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/Homepage";
+import ContactPage from "./pages/Contactpage";
 import Servicepage from "./pages/Servicepage";
 import AboutPage from "./pages/Aboutpage";
 import Project from "./pages/Project";
 import { Page } from "./pages/Page";
 import NotFound from "./pages/NotFound";   
-import Blogpage from "./pages/BlogPage";
+import Blogpage from "./pages/Blogpage";
  
 const router = createBrowserRouter([
   {
@@ -24,11 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/service" ,
-        element: <ServicePage />
+        element: <Servicepage />
       },
       {
         path: "/blog" ,
-        element: <BlogPage />
+        element: <Blogpage />
       },
       {
         path: "/about" ,
